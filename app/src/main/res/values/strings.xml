@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CrimInt2Fragment</string>
+    <string name="tv_title">Title</string>
+    <string name="hint_title">Edit Title..</string>
+    <string name="crime_details">Crime Details</string>
+    <string name="solved">Solved</string>
+</resources>
