@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:style="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:id="@+id/fragment_crime"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    android:id="@+id/fragment_crime">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_title"
+        style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style= "?android:listSeparatorTextViewStyle"
-        android:text="@string/tv_title"/>
+        android:text="@string/tv_title" />
 
     <EditText
         android:id="@+id/et_edit_title"
@@ -22,10 +21,10 @@
 
     <TextView
         android:id="@+id/tv_crime_details"
+        style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style= "?android:listSeparatorTextViewStyle"
-        android:text="@string/crime_details"/>
+        android:text="@string/crime_details" />
 
     <Button
         android:id="@+id/crime_date"
@@ -36,8 +35,7 @@
         android:id="@+id/crime_solved"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/solved"/>
-
+        android:text="@string/solved" />
 
 
 </LinearLayout>

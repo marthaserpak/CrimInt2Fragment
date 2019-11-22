@@ -1,4 +1,4 @@
-package bnrg.app.crimint2fragment;
+package bnrg.app.crimint2fragment.fragments;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -10,13 +10,13 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import java.util.zip.Inflater;
+import bnrg.app.crimint2fragment.activities.Crime;
+import bnrg.app.crimint2fragment.R;
 
 public class CrimeFragment extends Fragment {
 
@@ -27,13 +27,13 @@ public class CrimeFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
         mCrime = new Crime();
 
     }
 
-    @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,

@@ -1,4 +1,4 @@
-package bnrg.app.crimint2fragment;
+package bnrg.app.crimint2fragment.activities;
 
 import java.util.Date;
 import java.util.UUID;
